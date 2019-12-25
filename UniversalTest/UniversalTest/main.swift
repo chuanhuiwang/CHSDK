@@ -1,50 +1,34 @@
 import Foundation
 
-struct NameRequester: Requester {
-    
-    typealias Target = String
-    
-    let id: Int
-    
+
+struct Token: Encodable {
+    var token = "asdfasdfhuilqwe"
 }
 
-extension NameRequester: Provider {
-    func provideTarget() throws -> String {
-        return id.description
+struct Test: EndPointType {
+    var url: URL {
+        return URL(string: "https://www.baidu.com/api/v1/")!
     }
-    func internalProvideAny() throws -> Any {
-        return id
+    var urlParams: URLSearchParams {
+        return URLSearchParams(nameValues: ["name": "王传辉", "phone": "15201768391"])
+    }
+    var method: HTTPMethod {
+        return .post
+    }
+    var headers: HTTPHeaders {
+        return ["device": "iOS-APP"]
+    }
+    var bodyEncoder: BodyEncoding {
+        return EncodableEncoder(encodable: Token())
     }
 }
-
-struct NameDefaultProvider: DefaultProvider {
-    typealias Target = String
-    
-    func provideDefaultTarget() -> String {
-        return "null"
-    }
-    
-}
-
 
 do {
-    let result = try NameRequester(id: 1).requestWithThrows()
-    print(result)
+    let request = try RequestMaker<Test>().buildRequest(Test())
+    print(request)
+    print(request.allHTTPHeaderFields ?? [])
+    print(request.httpBody)
+    print(String(data: request.httpBody ?? Data(), encoding: String.Encoding.utf8))
 }catch {
     print(error)
-    if let e = error as? NotProviderError {
-        print(e.localizedDescription)
-    }
-}
-
-do {
-    let result = NameRequester(id: 3).request(defaultProvider: NameDefaultProvider())
-    print(result)
-}
-
-
-
-do {
-    let result = NameRequester(id: 2).requestWithFatalError()
-    print(result)
 }
