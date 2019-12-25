@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8BFE372F23B2EC3900D46570 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE372E23B2EC3900D46570 /* main.swift */; };
-		8BFE373A23B2EDB200D46570 /* CHSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE373923B2EDB200D46570 /* CHSDK.swift */; };
-		8BFE373C23B2EE0800D46570 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE373B23B2EE0800D46570 /* Requester.swift */; };
-		8BFE373E23B2F21000D46570 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE373D23B2F21000D46570 /* Provider.swift */; };
-		8BFE374023B2F2C500D46570 /* ThrowsMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE373F23B2F2C500D46570 /* ThrowsMediator.swift */; };
-		8BFE374223B2F37100D46570 /* NotProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374123B2F37100D46570 /* NotProviderError.swift */; };
-		8BFE374423B2F49900D46570 /* WrongProvidedTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374323B2F49900D46570 /* WrongProvidedTargetType.swift */; };
-		8BFE374623B2FAA100D46570 /* FatalErrorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374523B2FAA100D46570 /* FatalErrorMediator.swift */; };
-		8BFE374A23B2FBAE00D46570 /* InternalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374923B2FBAE00D46570 /* InternalError.swift */; };
-		8BFE374C23B2FDFD00D46570 /* DefaultProviderMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374B23B2FDFD00D46570 /* DefaultProviderMediator.swift */; };
-		8BFE374E23B2FF0D00D46570 /* SwiftyMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE374D23B2FF0D00D46570 /* SwiftyMediator.swift */; };
+		8BFE375C23B302D300D46570 /* WrongProvidedTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375123B302D300D46570 /* WrongProvidedTargetType.swift */; };
+		8BFE375D23B302D300D46570 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375223B302D300D46570 /* Requester.swift */; };
+		8BFE375E23B302D300D46570 /* InternalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375323B302D300D46570 /* InternalError.swift */; };
+		8BFE375F23B302D300D46570 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375423B302D300D46570 /* Provider.swift */; };
+		8BFE376023B302D300D46570 /* SwiftyMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375523B302D300D46570 /* SwiftyMediator.swift */; };
+		8BFE376123B302D300D46570 /* FatalErrorMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375623B302D300D46570 /* FatalErrorMediator.swift */; };
+		8BFE376223B302D300D46570 /* ThrowsMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375723B302D300D46570 /* ThrowsMediator.swift */; };
+		8BFE376323B302D300D46570 /* NotProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375823B302D300D46570 /* NotProviderError.swift */; };
+		8BFE376423B302D300D46570 /* DefaultProviderMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375923B302D300D46570 /* DefaultProviderMediator.swift */; };
+		8BFE376523B302D300D46570 /* CHSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE375B23B302D300D46570 /* CHSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,16 +35,16 @@
 /* Begin PBXFileReference section */
 		8BFE372B23B2EC3900D46570 /* UniversalTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UniversalTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE372E23B2EC3900D46570 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8BFE373923B2EDB200D46570 /* CHSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSDK.swift; sourceTree = "<group>"; };
-		8BFE373B23B2EE0800D46570 /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
-		8BFE373D23B2F21000D46570 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
-		8BFE373F23B2F2C500D46570 /* ThrowsMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowsMediator.swift; sourceTree = "<group>"; };
-		8BFE374123B2F37100D46570 /* NotProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotProviderError.swift; sourceTree = "<group>"; };
-		8BFE374323B2F49900D46570 /* WrongProvidedTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongProvidedTargetType.swift; sourceTree = "<group>"; };
-		8BFE374523B2FAA100D46570 /* FatalErrorMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorMediator.swift; sourceTree = "<group>"; };
-		8BFE374923B2FBAE00D46570 /* InternalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalError.swift; sourceTree = "<group>"; };
-		8BFE374B23B2FDFD00D46570 /* DefaultProviderMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultProviderMediator.swift; sourceTree = "<group>"; };
-		8BFE374D23B2FF0D00D46570 /* SwiftyMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMediator.swift; sourceTree = "<group>"; };
+		8BFE375123B302D300D46570 /* WrongProvidedTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongProvidedTargetType.swift; sourceTree = "<group>"; };
+		8BFE375223B302D300D46570 /* Requester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		8BFE375323B302D300D46570 /* InternalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalError.swift; sourceTree = "<group>"; };
+		8BFE375423B302D300D46570 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		8BFE375523B302D300D46570 /* SwiftyMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyMediator.swift; sourceTree = "<group>"; };
+		8BFE375623B302D300D46570 /* FatalErrorMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalErrorMediator.swift; sourceTree = "<group>"; };
+		8BFE375723B302D300D46570 /* ThrowsMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrowsMediator.swift; sourceTree = "<group>"; };
+		8BFE375823B302D300D46570 /* NotProviderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotProviderError.swift; sourceTree = "<group>"; };
+		8BFE375923B302D300D46570 /* DefaultProviderMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultProviderMediator.swift; sourceTree = "<group>"; };
+		8BFE375B23B302D300D46570 /* CHSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,41 +78,41 @@
 			isa = PBXGroup;
 			children = (
 				8BFE372E23B2EC3900D46570 /* main.swift */,
-				8BFE373623B2EDB200D46570 /* Sources */,
+				8BFE374F23B302D300D46570 /* Sources */,
 			);
 			path = UniversalTest;
 			sourceTree = "<group>";
 		};
-		8BFE373623B2EDB200D46570 /* Sources */ = {
+		8BFE374F23B302D300D46570 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8BFE373823B2EDB200D46570 /* CHSDK */,
-				8BFE373723B2EDB200D46570 /* SwiftyMediator */,
+				8BFE375023B302D300D46570 /* SwiftyMediator */,
+				8BFE375A23B302D300D46570 /* CHSDK */,
 			);
 			name = Sources;
-			path = ../../CHSDK/Sources;
+			path = ../../Sources;
 			sourceTree = "<group>";
 		};
-		8BFE373723B2EDB200D46570 /* SwiftyMediator */ = {
+		8BFE375023B302D300D46570 /* SwiftyMediator */ = {
 			isa = PBXGroup;
 			children = (
-				8BFE373B23B2EE0800D46570 /* Requester.swift */,
-				8BFE373D23B2F21000D46570 /* Provider.swift */,
-				8BFE373F23B2F2C500D46570 /* ThrowsMediator.swift */,
-				8BFE374523B2FAA100D46570 /* FatalErrorMediator.swift */,
-				8BFE374B23B2FDFD00D46570 /* DefaultProviderMediator.swift */,
-				8BFE374D23B2FF0D00D46570 /* SwiftyMediator.swift */,
-				8BFE374923B2FBAE00D46570 /* InternalError.swift */,
-				8BFE374123B2F37100D46570 /* NotProviderError.swift */,
-				8BFE374323B2F49900D46570 /* WrongProvidedTargetType.swift */,
+				8BFE375123B302D300D46570 /* WrongProvidedTargetType.swift */,
+				8BFE375223B302D300D46570 /* Requester.swift */,
+				8BFE375323B302D300D46570 /* InternalError.swift */,
+				8BFE375423B302D300D46570 /* Provider.swift */,
+				8BFE375523B302D300D46570 /* SwiftyMediator.swift */,
+				8BFE375623B302D300D46570 /* FatalErrorMediator.swift */,
+				8BFE375723B302D300D46570 /* ThrowsMediator.swift */,
+				8BFE375823B302D300D46570 /* NotProviderError.swift */,
+				8BFE375923B302D300D46570 /* DefaultProviderMediator.swift */,
 			);
 			path = SwiftyMediator;
 			sourceTree = "<group>";
 		};
-		8BFE373823B2EDB200D46570 /* CHSDK */ = {
+		8BFE375A23B302D300D46570 /* CHSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8BFE373923B2EDB200D46570 /* CHSDK.swift */,
+				8BFE375B23B302D300D46570 /* CHSDK.swift */,
 			);
 			path = CHSDK;
 			sourceTree = "<group>";
@@ -175,17 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFE373E23B2F21000D46570 /* Provider.swift in Sources */,
-				8BFE374423B2F49900D46570 /* WrongProvidedTargetType.swift in Sources */,
-				8BFE374E23B2FF0D00D46570 /* SwiftyMediator.swift in Sources */,
-				8BFE374623B2FAA100D46570 /* FatalErrorMediator.swift in Sources */,
-				8BFE374023B2F2C500D46570 /* ThrowsMediator.swift in Sources */,
+				8BFE376123B302D300D46570 /* FatalErrorMediator.swift in Sources */,
 				8BFE372F23B2EC3900D46570 /* main.swift in Sources */,
-				8BFE373A23B2EDB200D46570 /* CHSDK.swift in Sources */,
-				8BFE373C23B2EE0800D46570 /* Requester.swift in Sources */,
-				8BFE374C23B2FDFD00D46570 /* DefaultProviderMediator.swift in Sources */,
-				8BFE374223B2F37100D46570 /* NotProviderError.swift in Sources */,
-				8BFE374A23B2FBAE00D46570 /* InternalError.swift in Sources */,
+				8BFE376323B302D300D46570 /* NotProviderError.swift in Sources */,
+				8BFE375E23B302D300D46570 /* InternalError.swift in Sources */,
+				8BFE376223B302D300D46570 /* ThrowsMediator.swift in Sources */,
+				8BFE376523B302D300D46570 /* CHSDK.swift in Sources */,
+				8BFE376023B302D300D46570 /* SwiftyMediator.swift in Sources */,
+				8BFE375C23B302D300D46570 /* WrongProvidedTargetType.swift in Sources */,
+				8BFE376423B302D300D46570 /* DefaultProviderMediator.swift in Sources */,
+				8BFE375F23B302D300D46570 /* Provider.swift in Sources */,
+				8BFE375D23B302D300D46570 /* Requester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
