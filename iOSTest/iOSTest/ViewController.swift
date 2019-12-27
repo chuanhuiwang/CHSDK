@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import CHPlayerView
 
 class ViewController: UIViewController {
     

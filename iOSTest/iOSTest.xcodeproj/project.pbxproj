@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,22 +15,9 @@
 		8B88F3F523B4592E005377A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B88F3F323B4592E005377A2 /* LaunchScreen.storyboard */; };
 		8B88F40023B4592E005377A2 /* iOSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88F3FF23B4592E005377A2 /* iOSTestTests.swift */; };
 		8B88F40B23B4592E005377A2 /* iOSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88F40A23B4592E005377A2 /* iOSTestUITests.swift */; };
-		8BCE51AE23B5FA220066F479 /* StatusObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A023B5FA220066F479 /* StatusObserver.swift */; };
-		8BCE51AF23B5FA220066F479 /* ItemDurationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A123B5FA220066F479 /* ItemDurationObserver.swift */; };
-		8BCE51B023B5FA220066F479 /* LoadedTimeRangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A223B5FA220066F479 /* LoadedTimeRangeHandler.swift */; };
-		8BCE51B123B5FA220066F479 /* PlayDidEndObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A323B5FA220066F479 /* PlayDidEndObserver.swift */; };
-		8BCE51B223B5FA220066F479 /* WidthHeightRatioObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A423B5FA220066F479 /* WidthHeightRatioObserver.swift */; };
-		8BCE51B323B5FA220066F479 /* DoInMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A523B5FA220066F479 /* DoInMainThread.swift */; };
-		8BCE51B423B5FA220066F479 /* TimeControlStatusObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A623B5FA220066F479 /* TimeControlStatusObserver.swift */; };
-		8BCE51B523B5FA220066F479 /* CurrentPlayerItemObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A723B5FA220066F479 /* CurrentPlayerItemObserver.swift */; };
-		8BCE51B623B5FA220066F479 /* RateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A823B5FA220066F479 /* RateObserver.swift */; };
-		8BCE51B723B5FA220066F479 /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51A923B5FA220066F479 /* PlayerDelegate.swift */; };
-		8BCE51B823B5FA220066F479 /* QueuePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51AA23B5FA220066F479 /* QueuePlayer.swift */; };
-		8BCE51B923B5FA220066F479 /* RangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51AB23B5FA220066F479 /* RangeSet.swift */; };
-		8BCE51BA23B5FA220066F479 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51AC23B5FA220066F479 /* Status.swift */; };
-		8BCE51BB23B5FA220066F479 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51AD23B5FA220066F479 /* Player.swift */; };
-		8BCE51BE23B5FA500066F479 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51BC23B5FA4F0066F479 /* PlayerView.swift */; };
-		8BCE51BF23B5FA500066F479 /* QueuePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE51BD23B5FA500066F479 /* QueuePlayerView.swift */; };
+		8BCE51CE23B5FD410066F479 /* CHPlayerView in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCE51CD23B5FD410066F479 /* CHPlayerView */; };
+		8BCE51D023B5FD410066F479 /* CHSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCE51CF23B5FD410066F479 /* CHSDK */; };
+		8BCE51D223B5FD410066F479 /* CHSwiftyMediator in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCE51D123B5FD410066F479 /* CHSwiftyMediator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,22 +52,6 @@
 		8B88F40623B4592E005377A2 /* iOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B88F40A23B4592E005377A2 /* iOSTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestUITests.swift; sourceTree = "<group>"; };
 		8B88F40C23B4592E005377A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BCE51A023B5FA220066F479 /* StatusObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusObserver.swift; sourceTree = "<group>"; };
-		8BCE51A123B5FA220066F479 /* ItemDurationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDurationObserver.swift; sourceTree = "<group>"; };
-		8BCE51A223B5FA220066F479 /* LoadedTimeRangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadedTimeRangeHandler.swift; sourceTree = "<group>"; };
-		8BCE51A323B5FA220066F479 /* PlayDidEndObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayDidEndObserver.swift; sourceTree = "<group>"; };
-		8BCE51A423B5FA220066F479 /* WidthHeightRatioObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidthHeightRatioObserver.swift; sourceTree = "<group>"; };
-		8BCE51A523B5FA220066F479 /* DoInMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoInMainThread.swift; sourceTree = "<group>"; };
-		8BCE51A623B5FA220066F479 /* TimeControlStatusObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeControlStatusObserver.swift; sourceTree = "<group>"; };
-		8BCE51A723B5FA220066F479 /* CurrentPlayerItemObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentPlayerItemObserver.swift; sourceTree = "<group>"; };
-		8BCE51A823B5FA220066F479 /* RateObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateObserver.swift; sourceTree = "<group>"; };
-		8BCE51A923B5FA220066F479 /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
-		8BCE51AA23B5FA220066F479 /* QueuePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueuePlayer.swift; sourceTree = "<group>"; };
-		8BCE51AB23B5FA220066F479 /* RangeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSet.swift; sourceTree = "<group>"; };
-		8BCE51AC23B5FA220066F479 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
-		8BCE51AD23B5FA220066F479 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		8BCE51BC23B5FA4F0066F479 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		8BCE51BD23B5FA500066F479 /* QueuePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueuePlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE51D023B5FD410066F479 /* CHSDK in Frameworks */,
+				8BCE51D223B5FD410066F479 /* CHSwiftyMediator in Frameworks */,
+				8BCE51CE23B5FD410066F479 /* CHPlayerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +108,6 @@
 				8B88F3E523B4592D005377A2 /* AppDelegate.swift */,
 				8B88F3E923B4592D005377A2 /* ViewController.swift */,
 				8B88F3EB23B4592D005377A2 /* Main.storyboard */,
-				8B88F41823B4593D005377A2 /* Sources */,
 				8B88F3F123B4592E005377A2 /* Assets.xcassets */,
 				8B88F3F323B4592E005377A2 /* LaunchScreen.storyboard */,
 				8B88F3F623B4592E005377A2 /* Info.plist */,
@@ -161,38 +134,6 @@
 			path = iOSTestUITests;
 			sourceTree = "<group>";
 		};
-		8B88F41823B4593D005377A2 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				8BCE519F23B5FA220066F479 /* CHPlayer */,
-			);
-			name = Sources;
-			path = ../../Sources;
-			sourceTree = "<group>";
-		};
-		8BCE519F23B5FA220066F479 /* CHPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				8BCE51A023B5FA220066F479 /* StatusObserver.swift */,
-				8BCE51A123B5FA220066F479 /* ItemDurationObserver.swift */,
-				8BCE51A223B5FA220066F479 /* LoadedTimeRangeHandler.swift */,
-				8BCE51A323B5FA220066F479 /* PlayDidEndObserver.swift */,
-				8BCE51A423B5FA220066F479 /* WidthHeightRatioObserver.swift */,
-				8BCE51BC23B5FA4F0066F479 /* PlayerView.swift */,
-				8BCE51BD23B5FA500066F479 /* QueuePlayerView.swift */,
-				8BCE51A523B5FA220066F479 /* DoInMainThread.swift */,
-				8BCE51A623B5FA220066F479 /* TimeControlStatusObserver.swift */,
-				8BCE51A723B5FA220066F479 /* CurrentPlayerItemObserver.swift */,
-				8BCE51A823B5FA220066F479 /* RateObserver.swift */,
-				8BCE51A923B5FA220066F479 /* PlayerDelegate.swift */,
-				8BCE51AA23B5FA220066F479 /* QueuePlayer.swift */,
-				8BCE51AB23B5FA220066F479 /* RangeSet.swift */,
-				8BCE51AC23B5FA220066F479 /* Status.swift */,
-				8BCE51AD23B5FA220066F479 /* Player.swift */,
-			);
-			path = CHPlayer;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,6 +150,11 @@
 			dependencies = (
 			);
 			name = iOSTest;
+			packageProductDependencies = (
+				8BCE51CD23B5FD410066F479 /* CHPlayerView */,
+				8BCE51CF23B5FD410066F479 /* CHSDK */,
+				8BCE51D123B5FD410066F479 /* CHSwiftyMediator */,
+			);
 			productName = iOSTest;
 			productReference = 8B88F3E223B4592D005377A2 /* iOSTest.app */;
 			productType = "com.apple.product-type.application";
@@ -281,6 +227,9 @@
 				Base,
 			);
 			mainGroup = 8B88F3D923B4592D005377A2;
+			packageReferences = (
+				8BCE51CC23B5FD410066F479 /* XCRemoteSwiftPackageReference "CHSDK" */,
+			);
 			productRefGroup = 8B88F3E323B4592D005377A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -324,25 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCE51B723B5FA220066F479 /* PlayerDelegate.swift in Sources */,
-				8BCE51B023B5FA220066F479 /* LoadedTimeRangeHandler.swift in Sources */,
-				8BCE51B223B5FA220066F479 /* WidthHeightRatioObserver.swift in Sources */,
-				8BCE51B323B5FA220066F479 /* DoInMainThread.swift in Sources */,
 				8B88F3EA23B4592D005377A2 /* ViewController.swift in Sources */,
-				8BCE51BF23B5FA500066F479 /* QueuePlayerView.swift in Sources */,
 				8B88F3E623B4592D005377A2 /* AppDelegate.swift in Sources */,
-				8BCE51B523B5FA220066F479 /* CurrentPlayerItemObserver.swift in Sources */,
 				8B88F3F023B4592D005377A2 /* iOSTest.xcdatamodeld in Sources */,
-				8BCE51B423B5FA220066F479 /* TimeControlStatusObserver.swift in Sources */,
-				8BCE51BE23B5FA500066F479 /* PlayerView.swift in Sources */,
-				8BCE51B123B5FA220066F479 /* PlayDidEndObserver.swift in Sources */,
-				8BCE51B823B5FA220066F479 /* QueuePlayer.swift in Sources */,
-				8BCE51BA23B5FA220066F479 /* Status.swift in Sources */,
-				8BCE51B623B5FA220066F479 /* RateObserver.swift in Sources */,
-				8BCE51B923B5FA220066F479 /* RangeSet.swift in Sources */,
-				8BCE51AF23B5FA220066F479 /* ItemDurationObserver.swift in Sources */,
-				8BCE51BB23B5FA220066F479 /* Player.swift in Sources */,
-				8BCE51AE23B5FA220066F479 /* StatusObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +604,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BCE51CC23B5FD410066F479 /* XCRemoteSwiftPackageReference "CHSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chuanhuiwang/CHSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BCE51CD23B5FD410066F479 /* CHPlayerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BCE51CC23B5FD410066F479 /* XCRemoteSwiftPackageReference "CHSDK" */;
+			productName = CHPlayerView;
+		};
+		8BCE51CF23B5FD410066F479 /* CHSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BCE51CC23B5FD410066F479 /* XCRemoteSwiftPackageReference "CHSDK" */;
+			productName = CHSDK;
+		};
+		8BCE51D123B5FD410066F479 /* CHSwiftyMediator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BCE51CC23B5FD410066F479 /* XCRemoteSwiftPackageReference "CHSDK" */;
+			productName = CHSwiftyMediator;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8B88F3EE23B4592D005377A2 /* iOSTest.xcdatamodeld */ = {

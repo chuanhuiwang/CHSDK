@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CHSDK",
+        "repositoryURL": "https://github.com/chuanhuiwang/CHSDK",
+        "state": {
+          "branch": null,
+          "revision": "2ddb8e5cb58e9c7d3d40b7b4b7271ee3932fbc9f",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

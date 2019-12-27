@@ -93,6 +93,8 @@ extension QueuePlayer {
             
             old?.removeObserver(this.getWidthHeightRatioObserver(), forKeyPath: #keyPath(AVPlayerItem.presentationSize))
             new?.addObserver(this.getWidthHeightRatioObserver(), forKeyPath: #keyPath(AVPlayerItem.presentationSize), options: [.new, .initial], context: nil)
+            
+            this.delegate?.queuePlayer(this, currentItemDidChange: new)
 
         }
         currentPlayerItemObserver = observer

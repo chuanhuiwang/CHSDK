@@ -1,5 +1,6 @@
 import Foundation
 import CoreGraphics
+import AVFoundation
 
 
 public protocol PlayerDelegate: class {
@@ -8,6 +9,7 @@ public protocol PlayerDelegate: class {
     func player(_ player: Player, durationDidChange duration: TimeInterval)
     func player(_ player: Player, playedDurationDidChange playedDuration: TimeInterval)
     func player(_ player: Player, itemLoadedTimeRangeDidChange range: RangeSet<TimeInterval>)
+    func queuePlayer(_ queuePlayer: QueuePlayer, currentItemDidChange item: AVPlayerItem?)
 }
 
 public extension PlayerDelegate {
@@ -29,6 +31,10 @@ public extension PlayerDelegate {
     }
     
     func player(_ player: Player, itemLoadedTimeRangeDidChange range: RangeSet<TimeInterval>) {
+        
+    }
+    
+    func queuePlayer(_ queuePlayer: QueuePlayer, currentItemDidChange item: AVPlayerItem?) {
         
     }
     
