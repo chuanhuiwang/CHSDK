@@ -22,6 +22,13 @@ public class QueuePlayerView: PlayerView {
         setup()
     }
     
+    public convenience init(player: Player) {
+        self.init(frame: CGRect.zero)
+        if let queuePlayer = player as? QueuePlayer {
+            self._queuePlayer = queuePlayer
+        }
+    }
+    
     override func setup() {
         _playerLayer.player = _queuePlayer.player
     }

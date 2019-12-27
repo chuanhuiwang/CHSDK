@@ -27,6 +27,11 @@ public class PlayerView: UIView {
         setup()
     }
     
+    public convenience init(player: Player) {
+        self.init(frame: CGRect.zero)
+        self._player = player
+    }
+    
     func setup() {
         _playerLayer.player = _player.player
     }
