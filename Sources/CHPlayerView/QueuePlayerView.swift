@@ -27,6 +27,7 @@ public class QueuePlayerView: PlayerView {
         if let queuePlayer = player as? QueuePlayer {
             self._queuePlayer = queuePlayer
         }
+        setup()
     }
     
     override func setup() {

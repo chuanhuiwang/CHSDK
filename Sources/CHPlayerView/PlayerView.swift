@@ -30,6 +30,7 @@ public class PlayerView: UIView {
     public convenience init(player: Player) {
         self.init(frame: CGRect.zero)
         self._player = player
+        setup()
     }
     
     func setup() {

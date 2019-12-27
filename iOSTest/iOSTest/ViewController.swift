@@ -30,12 +30,14 @@ class ViewController: UIViewController {
         playerView.player.play()
         
         do {
-//            let player = playerView.player.player
-//            print(player)
-//            let layer = AVPlayerLayer(player: player)
-//            print(layer)
-//            layer.frame = nextView.layer.bounds
-//            nextView.layer.addSublayer(layer)
+            let player = playerView.player
+            let playerView = PlayerView(player: player)
+            nextView.addSubview(playerView)
+            playerView.translatesAutoresizingMaskIntoConstraints = false
+            playerView.leftAnchor.constraint(equalTo: nextView.leftAnchor).isActive = true
+            playerView.rightAnchor.constraint(equalTo: nextView.rightAnchor).isActive = true
+            playerView.topAnchor.constraint(equalTo: nextView.topAnchor).isActive = true
+            playerView.bottomAnchor.constraint(equalTo: nextView.bottomAnchor).isActive = true
         }
         
     }
