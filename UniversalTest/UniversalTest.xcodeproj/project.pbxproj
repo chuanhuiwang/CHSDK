@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5CED0C23B4928100B1932A /* NotificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5CED0B23B4928100B1932A /* NotificationTest.swift */; };
+		8B88F3D623B454E1005377A2 /* CHNetworkLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88F3D523B454E1005377A2 /* CHNetworkLayerTest.swift */; };
+		8B88F3D823B454FE005377A2 /* KVOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88F3D723B454FE005377A2 /* KVOTest.swift */; };
+		8BCE516223B5E6160066F479 /* StatusObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515423B5E6150066F479 /* StatusObserver.swift */; };
+		8BCE516323B5E6160066F479 /* PlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515523B5E6150066F479 /* PlayerViewDelegate.swift */; };
+		8BCE516423B5E6160066F479 /* ItemDurationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515623B5E6150066F479 /* ItemDurationObserver.swift */; };
+		8BCE516523B5E6160066F479 /* LoadedTimeRangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515723B5E6150066F479 /* LoadedTimeRangeHandler.swift */; };
+		8BCE516623B5E6160066F479 /* PlayDidEndObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515823B5E6150066F479 /* PlayDidEndObserver.swift */; };
+		8BCE516723B5E6160066F479 /* WidthHeightRatioObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515923B5E6150066F479 /* WidthHeightRatioObserver.swift */; };
+		8BCE516823B5E6160066F479 /* DoInMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515A23B5E6150066F479 /* DoInMainThread.swift */; };
+		8BCE516923B5E6160066F479 /* TimeControlStatusObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515B23B5E6150066F479 /* TimeControlStatusObserver.swift */; };
+		8BCE516A23B5E6160066F479 /* CurrentPlayerItemObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515C23B5E6150066F479 /* CurrentPlayerItemObserver.swift */; };
+		8BCE516B23B5E6160066F479 /* RateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515D23B5E6150066F479 /* RateObserver.swift */; };
+		8BCE516C23B5E6160066F479 /* RangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515E23B5E6150066F479 /* RangeSet.swift */; };
+		8BCE516D23B5E6160066F479 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE515F23B5E6150066F479 /* PlayerView.swift */; };
+		8BCE516E23B5E6160066F479 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE516023B5E6150066F479 /* Status.swift */; };
+		8BCE516F23B5E6160066F479 /* QueuePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE516123B5E6150066F479 /* QueuePlayerView.swift */; };
 		8BFE372F23B2EC3900D46570 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE372E23B2EC3900D46570 /* main.swift */; };
 		8BFE37A023B30A5C00D46570 /* CHSwiftyMediatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE379F23B30A5C00D46570 /* CHSwiftyMediatorTest.swift */; };
 		8BFE37A223B30A9A00D46570 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE37A123B30A9A00D46570 /* EndPointType.swift */; };
@@ -33,6 +50,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B5CED0B23B4928100B1932A /* NotificationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTest.swift; sourceTree = "<group>"; };
+		8B88F3D523B454E1005377A2 /* CHNetworkLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHNetworkLayerTest.swift; sourceTree = "<group>"; };
+		8B88F3D723B454FE005377A2 /* KVOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOTest.swift; sourceTree = "<group>"; };
+		8BCE515423B5E6150066F479 /* StatusObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusObserver.swift; sourceTree = "<group>"; };
+		8BCE515523B5E6150066F479 /* PlayerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewDelegate.swift; sourceTree = "<group>"; };
+		8BCE515623B5E6150066F479 /* ItemDurationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDurationObserver.swift; sourceTree = "<group>"; };
+		8BCE515723B5E6150066F479 /* LoadedTimeRangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadedTimeRangeHandler.swift; sourceTree = "<group>"; };
+		8BCE515823B5E6150066F479 /* PlayDidEndObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayDidEndObserver.swift; sourceTree = "<group>"; };
+		8BCE515923B5E6150066F479 /* WidthHeightRatioObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidthHeightRatioObserver.swift; sourceTree = "<group>"; };
+		8BCE515A23B5E6150066F479 /* DoInMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoInMainThread.swift; sourceTree = "<group>"; };
+		8BCE515B23B5E6150066F479 /* TimeControlStatusObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeControlStatusObserver.swift; sourceTree = "<group>"; };
+		8BCE515C23B5E6150066F479 /* CurrentPlayerItemObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentPlayerItemObserver.swift; sourceTree = "<group>"; };
+		8BCE515D23B5E6150066F479 /* RateObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateObserver.swift; sourceTree = "<group>"; };
+		8BCE515E23B5E6150066F479 /* RangeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSet.swift; sourceTree = "<group>"; };
+		8BCE515F23B5E6150066F479 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		8BCE516023B5E6150066F479 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		8BCE516123B5E6150066F479 /* QueuePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueuePlayerView.swift; sourceTree = "<group>"; };
 		8BFE372B23B2EC3900D46570 /* UniversalTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UniversalTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE372E23B2EC3900D46570 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8BFE379F23B30A5C00D46570 /* CHSwiftyMediatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHSwiftyMediatorTest.swift; sourceTree = "<group>"; };
@@ -58,6 +92,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BCE515323B5E6150066F479 /* CHPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE515423B5E6150066F479 /* StatusObserver.swift */,
+				8BCE515523B5E6150066F479 /* PlayerViewDelegate.swift */,
+				8BCE515623B5E6150066F479 /* ItemDurationObserver.swift */,
+				8BCE515723B5E6150066F479 /* LoadedTimeRangeHandler.swift */,
+				8BCE515823B5E6150066F479 /* PlayDidEndObserver.swift */,
+				8BCE515923B5E6150066F479 /* WidthHeightRatioObserver.swift */,
+				8BCE515A23B5E6150066F479 /* DoInMainThread.swift */,
+				8BCE515B23B5E6150066F479 /* TimeControlStatusObserver.swift */,
+				8BCE515C23B5E6150066F479 /* CurrentPlayerItemObserver.swift */,
+				8BCE515D23B5E6150066F479 /* RateObserver.swift */,
+				8BCE515E23B5E6150066F479 /* RangeSet.swift */,
+				8BCE515F23B5E6150066F479 /* PlayerView.swift */,
+				8BCE516023B5E6150066F479 /* Status.swift */,
+				8BCE516123B5E6150066F479 /* QueuePlayerView.swift */,
+			);
+			path = CHPlayerView;
+			sourceTree = "<group>";
+		};
 		8BFE372223B2EC3900D46570 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				8BFE372E23B2EC3900D46570 /* main.swift */,
+				8B88F3D723B454FE005377A2 /* KVOTest.swift */,
+				8B5CED0B23B4928100B1932A /* NotificationTest.swift */,
 				8BFE379F23B30A5C00D46570 /* CHSwiftyMediatorTest.swift */,
+				8B88F3D523B454E1005377A2 /* CHNetworkLayerTest.swift */,
 				8BFE374F23B302D300D46570 /* Sources */,
 			);
 			path = UniversalTest;
@@ -87,6 +145,7 @@
 		8BFE374F23B302D300D46570 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8BCE515323B5E6150066F479 /* CHPlayerView */,
 				8BFE378B23B30A2F00D46570 /* CHNetworkLayer */,
 			);
 			name = Sources;
@@ -172,16 +231,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE516323B5E6160066F479 /* PlayerViewDelegate.swift in Sources */,
+				8BCE516523B5E6160066F479 /* LoadedTimeRangeHandler.swift in Sources */,
+				8B88F3D823B454FE005377A2 /* KVOTest.swift in Sources */,
+				8BCE516423B5E6160066F479 /* ItemDurationObserver.swift in Sources */,
 				8BFE37B123B35E0200D46570 /* NetworkLayer.swift in Sources */,
+				8BCE516A23B5E6160066F479 /* CurrentPlayerItemObserver.swift in Sources */,
+				8BCE516723B5E6160066F479 /* WidthHeightRatioObserver.swift in Sources */,
 				8BFE37AB23B33C6A00D46570 /* BodyEncoding.swift in Sources */,
+				8BCE516D23B5E6160066F479 /* PlayerView.swift in Sources */,
+				8BCE516E23B5E6160066F479 /* Status.swift in Sources */,
 				8BFE37A923B30F6900D46570 /* URLSearchParams.swift in Sources */,
+				8BCE516F23B5E6160066F479 /* QueuePlayerView.swift in Sources */,
+				8BCE516B23B5E6160066F479 /* RateObserver.swift in Sources */,
 				8BFE37A723B30D3E00D46570 /* HTTPMethod.swift in Sources */,
+				8BCE516923B5E6160066F479 /* TimeControlStatusObserver.swift in Sources */,
 				8BFE37B623B3682300D46570 /* Response.swift in Sources */,
 				8BFE372F23B2EC3900D46570 /* main.swift in Sources */,
 				8BFE37A023B30A5C00D46570 /* CHSwiftyMediatorTest.swift in Sources */,
+				8B88F3D623B454E1005377A2 /* CHNetworkLayerTest.swift in Sources */,
+				8B5CED0C23B4928100B1932A /* NotificationTest.swift in Sources */,
+				8BCE516823B5E6160066F479 /* DoInMainThread.swift in Sources */,
+				8BCE516C23B5E6160066F479 /* RangeSet.swift in Sources */,
+				8BCE516623B5E6160066F479 /* PlayDidEndObserver.swift in Sources */,
 				8BFE37AD23B3402300D46570 /* Error.swift in Sources */,
 				8BFE37AF23B341D500D46570 /* RequestMaker.swift in Sources */,
 				8BFE37A223B30A9A00D46570 /* EndPointType.swift in Sources */,
+				8BCE516223B5E6160066F479 /* StatusObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

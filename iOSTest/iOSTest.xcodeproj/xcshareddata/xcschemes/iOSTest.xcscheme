@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,38 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHSDK"
-               BuildableName = "CHSDK.framework"
-               BlueprintName = "CHSDK"
-               ReferencedContainer = "container:CHSDK.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHSwiftyMediator"
-               BuildableName = "CHSwiftyMediator.framework"
-               BlueprintName = "CHSwiftyMediator"
-               ReferencedContainer = "container:CHSDK.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHPlayerView"
-               BuildableName = "CHPlayerView.framework"
-               BlueprintName = "CHPlayerView"
-               ReferencedContainer = "container:CHSDK.xcodeproj">
+               BlueprintIdentifier = "8B88F3E123B4592D005377A2"
+               BuildableName = "iOSTest.app"
+               BlueprintName = "iOSTest"
+               ReferencedContainer = "container:iOSTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,10 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHSDKTests"
-               BuildableName = "CHSDKTests.xctest"
-               BlueprintName = "CHSDKTests"
-               ReferencedContainer = "container:CHSDK.xcodeproj">
+               BlueprintIdentifier = "8B88F3FA23B4592E005377A2"
+               BuildableName = "iOSTestTests.xctest"
+               BlueprintName = "iOSTestTests"
+               ReferencedContainer = "container:iOSTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8B88F40523B4592E005377A2"
+               BuildableName = "iOSTestUITests.xctest"
+               BlueprintName = "iOSTestUITests"
+               ReferencedContainer = "container:iOSTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -78,6 +60,23 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8B88F3E123B4592D005377A2"
+            BuildableName = "iOSTest.app"
+            BlueprintName = "iOSTest"
+            ReferencedContainer = "container:iOSTest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -85,6 +84,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8B88F3E123B4592D005377A2"
+            BuildableName = "iOSTest.app"
+            BlueprintName = "iOSTest"
+            ReferencedContainer = "container:iOSTest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

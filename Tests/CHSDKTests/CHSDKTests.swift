@@ -1,5 +1,6 @@
 import XCTest
 @testable import CHSDK
+import CHPlayerView
 
 final class CHSDKTests: XCTestCase {
     func testExample() {
