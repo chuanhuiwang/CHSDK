@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHSwiftyMediator"
-               BuildableName = "CHSwiftyMediator.framework"
-               BlueprintName = "CHSwiftyMediator"
+               BlueprintIdentifier = "CHSDK::CHPlayerView"
+               BuildableName = "CHPlayerView.framework"
+               BlueprintName = "CHPlayerView"
                ReferencedContainer = "container:CHSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CHSDK::CHPlayerView"
-               BuildableName = "CHPlayerView.framework"
-               BlueprintName = "CHPlayerView"
+               BlueprintIdentifier = "CHSDK::CHSwiftyMediator"
+               BuildableName = "CHSwiftyMediator.framework"
+               BlueprintName = "CHSwiftyMediator"
                ReferencedContainer = "container:CHSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
